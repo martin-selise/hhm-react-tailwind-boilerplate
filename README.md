@@ -1,38 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JSON Data</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f4f4f9;
-      margin: 20px;
-      color: #333;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul > li {
-      margin-bottom: 10px;
-    }
-    ul > li > ul {
-      margin-left: 20px;
-    }
-    .key {
-      font-weight: bold;
-      color: #007acc;
-    }
-    .value {
-      color: #555;
-    }
-  </style>
-</head>
-<body>
-  <h1>JSON Data</h1>
+
+  <h1>All Info of this boilerplate</h1>
   <ul>
     <li><span class="key">name:</span> <span class="value">hhm-react-tailwind-boilerplate</span></li>
     <li><span class="key">private:</span> <span class="value">true</span></li>
@@ -73,5 +40,3 @@
       </ul>
     </li>
   </ul>
-</body>
-</html>
