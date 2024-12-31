@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --redColor: #f60003;
+  --whiteColor: #ffffff;
+}
+
+@layer base {
+  .main-container {
+    @apply max-w-[1200px] mx-auto px-4 !important;
+  }
+  .main-container-fluid {
+    @apply max-w-full mx-auto lg:px-0;
+  }
+  img {
+    @apply max-w-full;
+  }
+}
+
+@layer components {
+  .hello {
+    @apply bg-redColor text-center text-whiteColor py-5 text-3xl font-bold;
+  }
+}
